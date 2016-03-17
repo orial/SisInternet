@@ -1,0 +1,32 @@
+<!--
+To change this template, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Calcular la letra del DNI</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <script src="validacion.js" type="text/javascript"></script>
+    </head>
+    <body>
+        <form method="post" action="LetraDNI" name="formulario" onsubmit="return validar();">
+            <table>
+                <tr>
+                    <td>DNI:</td>
+                    <td><input type="text" name="dni"></td>
+                </tr>
+                <tr>
+                    <td>NIF:</td>
+                    <td></td>
+                </tr>           
+                <tr>
+                    <td colspan="2">
+                        <input type="submit" value="Calcular">
+                    </td>
+                </tr>
+                
+            </table>
+        </form>
+    </body>
+</html>
