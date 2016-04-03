@@ -34,6 +34,11 @@ public class Autor implements Serializable {
     private Integer indiceH;
     @ElementCollection
     private Set<String> firmas;
+    
+    /* 
+    Lo unico que no esperaba es la creación de la tabla sequence. Que analizando
+    veo que se usa para autogenerar la clave primaria
+    */
 
     public Integer getIndiceH() {
         return indiceH;
